@@ -1,0 +1,21 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  user: one
+  for_date: 2017-02-24
+  in_time: 2017-02-24 14:25:43
+  out_time: 2017-02-24 14:25:43
+  forced_leave: false
+  leave_granted: false
+  hours_worked: 1
+  break_hours: 1
+
+two:
+  user: two
+  for_date: 2017-02-24
+  in_time: 2017-02-24 14:25:43
+  out_time: 2017-02-24 14:25:43
+  forced_leave: false
+  leave_granted: false
+  hours_worked: 1
+  break_hours: 1

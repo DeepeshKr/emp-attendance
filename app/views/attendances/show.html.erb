@@ -1,0 +1,44 @@
+<p id="notice"><%= notice %></p>
+
+<p>
+  <strong>User:</strong>
+  <%= @attendance.user %>
+</p>
+
+<p>
+  <strong>For date:</strong>
+  <%= @attendance.for_date %>
+</p>
+
+<p>
+  <strong>In time:</strong>
+  <%= @attendance.in_time %>
+</p>
+
+<p>
+  <strong>Out time:</strong>
+  <%= @attendance.out_time %>
+</p>
+
+<p>
+  <strong>Forced leave:</strong>
+  <%= @attendance.forced_leave %>
+</p>
+
+<p>
+  <strong>Leave granted:</strong>
+  <%= @attendance.leave_granted %>
+</p>
+
+<p>
+  <strong>Hours worked:</strong>
+  <%= @attendance.hours_worked %>
+</p>
+
+<p>
+  <strong>Break hours:</strong>
+  <%= @attendance.break_hours %>
+</p>
+
+<%= link_to 'Edit', edit_attendance_path(@attendance) %> |
+<%= link_to 'Back', attendances_path %>

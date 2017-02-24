@@ -1,0 +1,18 @@
+<%= simple_form_for(@attendance) do |f| %>
+  <%= f.error_notification %>
+
+  <div class="form-inputs">
+    <%= f.association :user, label_method: :full_name, value_method: :id, include_blank: false %>
+    <%= f.input :for_date %>
+    <%= f.input :in_time %>
+    <%= f.input :out_time %>
+    <%= f.input :forced_leave %>
+    <%= f.input :leave_granted %>
+    <%= f.input :hours_worked %>
+    <%= f.input :break_hours %>
+  </div>
+
+  <div class="form-actions">
+    <%= f.button :submit %>
+  </div>
+<% end %>

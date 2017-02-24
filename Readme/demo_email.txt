@@ -1,0 +1,22 @@
+Rendering devise/mailer/confirmation_instructions.html.erb
+  Rendered devise/mailer/confirmation_instructions.html.erb (0.9ms)
+Devise::Mailer#confirmation_instructions: processed outbound mail in 314.0ms
+Sent mail to demo113@example.com (24.8ms)
+Date: Fri, 24 Feb 2017 15:19:26 +0530
+From: please-change-me-at-config-initializers-devise@example.com
+Reply-To: please-change-me-at-config-initializers-devise@example.com
+To: demo113@example.com
+Message-ID: <58b001a6a7cf4_32093fd934c2bc8840432@Deepeshs-MacBook-Pro.local.mail>
+Subject: Confirmation instructions
+Mime-Version: 1.0
+Content-Type: text/html;
+ charset=UTF-8
+Content-Transfer-Encoding: 7bit
+
+<p>Welcome demo113@example.com!</p>
+
+<p>You can confirm your account email through the link below:</p>
+
+<p><a href="http://localhost:3000/users/confirmation?confirmation_token=_AburJ1GxSe_iokzksa9">Confirm my account</a></p>
+
+Redirected to http://localhost:3000/
