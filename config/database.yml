@@ -18,19 +18,28 @@
 # Warning: The database defined as "test" will be erased and
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
+default: &default
+  adapter: postgresql
+  encoding: unicode
+  host: <%= ENV["DB_IP"] %> 
+  username: <%= ENV["DB_USER"] %>
+  password: <%= ENV["DB_PASS"] %>
+  pool: 5
+
 development:
-  adapter: postgresql
-  database: emp_attendance
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: emp_attend
+
 test:
-  adapter: postgresql
-  database: emp_attendance_test
-  pool: 5
-  timeout: 5000
+  <<: *default
+  database: emp_attend_test
+
 
 production:
+  database: emp_attend
   adapter: postgresql
-  database: emp_attendance
+  encoding: unicode
   pool: 5
-  timeout: 5000
+  username: deepesh
+  password: Make@246
+

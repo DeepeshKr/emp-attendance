@@ -39,8 +39,8 @@ Rails.application.configure do
   :address              => "smtp.gmail.com",
   :port                 => 587,
   :domain               => "gmail.com",
-  :user_name            => "sure.crm.app@gmail.com",
-  :password             => "Sure@1234",
+  :user_name            => <%= ENV["EMAIL_USER"] %>,
+  :password             => <%= ENV["EMAIL_PASS"] %>,
   :authentication       => 'plain',
   :enable_starttls_auto => true  }
   ## mailer config ends here

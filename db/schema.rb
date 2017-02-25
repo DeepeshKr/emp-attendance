@@ -12,6 +12,9 @@
 
 ActiveRecord::Schema.define(version: 20170224085543) do
 
+  # These are extensions that must be enabled in order to support this database
+  enable_extension "plpgsql"
+
   create_table "attendances", force: :cascade do |t|
     t.integer  "user_id"
     t.date     "for_date"
@@ -23,7 +26,7 @@ ActiveRecord::Schema.define(version: 20170224085543) do
     t.integer  "break_hours"
     t.datetime "created_at",    null: false
     t.datetime "updated_at",    null: false
-    t.index ["user_id"], name: "index_attendances_on_user_id"
+    t.index ["user_id"], name: "index_attendances_on_user_id", using: :btree
   end
 
   create_table "users", force: :cascade do |t|
@@ -47,10 +50,11 @@ ActiveRecord::Schema.define(version: 20170224085543) do
     t.string   "unconfirmed_email"
     t.datetime "created_at",                          null: false
     t.datetime "updated_at",                          null: false
-    t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true
-    t.index ["email"], name: "index_users_on_email", unique: true
-    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true
-    t.index ["user_name"], name: "index_users_on_user_name", unique: true
+    t.index ["confirmation_token"], name: "index_users_on_confirmation_token", unique: true, using: :btree
+    t.index ["email"], name: "index_users_on_email", unique: true, using: :btree
+    t.index ["reset_password_token"], name: "index_users_on_reset_password_token", unique: true, using: :btree
+    t.index ["user_name"], name: "index_users_on_user_name", unique: true, using: :btree
   end
 
+  add_foreign_key "attendances", "users"
 end
