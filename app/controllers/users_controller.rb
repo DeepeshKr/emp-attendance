@@ -11,6 +11,7 @@ class UsersController < ApplicationController
   
   def show
     
+     @attendances = Attendance.where(:user_id => current_user.id)
   end
   
   def update

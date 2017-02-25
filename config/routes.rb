@@ -1,6 +1,10 @@
 Rails.application.routes.draw do
   
-  resources :attendances
+  resources :attendances do
+     collection { post :add_today }
+  end
+  # resources :attendances
+  
   devise_for :users
   match '/users/:id',     to: 'users#show',       via: 'get'
   resources :users #, :only =>[:index, :show, :edit, :destroy]

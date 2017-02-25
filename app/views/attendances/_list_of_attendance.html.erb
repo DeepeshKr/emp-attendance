@@ -1,0 +1,30 @@
+<div class="card">
+  <div class="card-header">
+    <h3>This months Attendance</h1>
+  </div>
+  <div class="card-block">
+	  <% if @attendances.present? %>
+		<table class="table table-hover table-bordered">
+		  <thead>
+		    <tr>
+		      <th>For date</th>
+		      <th>In time</th>
+			  <th><th>
+		    </tr>
+		  </thead>
+
+		  <tbody>
+		    <% @attendances.each do |attendance| %>
+		      <tr class="<%= attendance.on_time[0] %>">
+	           <td><%= attendance.for_date.strftime("%d-%b-%y") %></td>
+	           <td><%= attendance.in_time.strftime("%H:%M %p ") %></td>
+			   <td><%= attendance.on_time[1] %></td>
+		   	  </tr>
+		    <% end %>
+		  </tbody>
+		</table>
+		<% else %>
+			<p>No Attendance details found</p>
+		<% end %>
+  </div>
+</div>

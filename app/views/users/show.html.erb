@@ -1,25 +1,9 @@
 <p id="notice"><%= notice %></p>
+	
+	<% if user_signed_in? %>
+	 <%= render 'user_info' %>
+   	<% end %>
 
-<p>
-  <strong>Name:</strong>
-  <%= @user.full_name %>
-</p>
-
-<p>
-  <strong>Username:</strong>
-  <%= @user.user_name %>
-</p>
-
-<p>
-  <strong>Email:</strong>
-  <%= @user.email %>
-</p>
-
-<p>
-  <strong>Admin:</strong>
-  <%= @user.admin %>
-</p>
-
-
-<%= link_to 'Edit', edit_user_path(@user) %> |
-<%= link_to 'Back', users_path %>
+   <% if current_user.admin? %>
+     <%= render 'admin_info' %>
+   <% end %>

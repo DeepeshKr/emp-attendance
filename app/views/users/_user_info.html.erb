@@ -1,0 +1,17 @@
+<div class="card">
+  <div class="card-header">
+    <h1> <%= @user.full_name %> Attendance history</h1>
+  </div>
+  <div class="card-block">
+	<div class="row">
+	<div class="col-4">
+		<%= link_to image_tag("clock.jpg", :border=>0), 
+		add_today_attendances_path(user_id: current_user.id), :method => :post %>
+		<span>Punch in</span>
+	</div>  
+	<div class="col-8">
+		<%= render 'attendances/list_of_attendance' %>
+	</div>
+	</div> 
+  </div>
+</div>

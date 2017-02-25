@@ -2,36 +2,38 @@
   <button class="navbar-toggler navbar-toggler-right" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
     <span class="navbar-toggler-icon"></span>
   </button>
-  <a class="navbar-brand" href="#">Genius U Web Test</a>
-
+	<%= link_to 'Genius U Web Test', root_path, class:"navbar-brand" %>
   <div class="collapse navbar-collapse" id="navbarSupportedContent">
-    <ul class="navbar-nav mr-auto">
-      <li class="nav-item active">
-        <a class="nav-link" href="#">Home <span class="sr-only">(current)</span></a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link" href="#">Link</a>
-      </li>
-      <li class="nav-item">
-        <a class="nav-link disabled" href="#">Disabled</a>
-      </li>
-    </ul>
-	<form class="form-inline my-2 my-lg-0">
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+  			  <%= link_to 'Home', root_path, class:"nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'About', about_path, class:"nav-link" %>
+            </li>
+            <li class="nav-item">
+              <%= link_to 'Contact', contact_path, class:"nav-link" %>
+            </li>
+			<% if current_user.admin? %>
+	            <li class="nav-item">
+	              <%= link_to 'Users', users_path, class:"btn btn-outline-success md-2" %>
+	            </li>
+	            <li class="nav-item">
+	              <%= link_to 'Attendence', attendances_path, class:"btn btn-outline-success" %>
+	            </li>
+			<% end %>
+          </ul>
 		
 		<% if user_signed_in? %>
 	  
-	  		<%= link_to 'Logout', destroy_user_session_path, :method => :delete, class: "btn btn-danger my-2 my-sm-0"   %>        
-		  
+	  		<%= link_to 'Logout', destroy_user_session_path, 
+			:method => :delete, class: "btn btn-danger my-2 my-sm-0"   %>        
 	 	   
 		<% else %>
 	 
-	  	<%= link_to 'Login', new_user_session_path, class: "btn btn-outline-success my-2 my-sm-0"  %>  
+	  		<%= link_to 'Login', new_user_session_path, class: "btn btn-outline-success my-2 my-sm-0"  %>  
 	  
 		<% end %>
-	</form>
-    <!-- 
-      
-      <button class="btn btn-outline-success my-2 my-sm-0" type="submit">Search</button>
-     -->
+	
   </div>
 </nav>

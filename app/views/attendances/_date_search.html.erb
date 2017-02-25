@@ -1,0 +1,14 @@
+<form class="form-inline">    
+  <div class="col-sm-5">
+     <%= select_date(@from_date, :prefix => 'from') %>
+  </div>
+  <label for="smFormGroupInput" class="col-sm-1 col-form-label col-form-label-sm">To</label>
+  <div class="col-sm-5">
+    
+	<%= select_date(@to_date, :prefix => 'upto') %>
+  </div>
+  <div class="col-sm-1">
+    <button type="submit" class="btn btn-primary btn-sm">Search</button>
+  </div>
+</form>
+

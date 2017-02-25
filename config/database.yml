@@ -19,18 +19,18 @@
 # re-generated from your development database when you run "rake".
 # Do not set this db to the same as development or production.
 development:
-  adapter: sqlite3
-  database: emp_attendance_development
+  adapter: postgresql
+  database: emp_attendance
   pool: 5
   timeout: 5000
 test:
-  adapter: sqlite3
+  adapter: postgresql
   database: emp_attendance_test
   pool: 5
   timeout: 5000
 
 production:
   adapter: postgresql
-  database: emp_attendance_production
+  database: emp_attendance
   pool: 5
   timeout: 5000

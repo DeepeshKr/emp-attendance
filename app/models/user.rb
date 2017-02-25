@@ -10,7 +10,9 @@ class User < ApplicationRecord
   
   validates :first_name, presence: true #, message: 'Require First Name'
   validates :last_name, presence: true #, message: 'Require Last Name' 
-  validates :user_name, presence: true, format: { with: /\A[a-zA-Z0-9]+\z/, message: "only allows letters / numbers and no blank space" }, :uniqueness => { :case_sensitive => false}
+  validates :user_name, presence: true, format: { with: /\A[a-zA-Z0-9]+\z/, 
+    message: "only allows letters / numbers and no blank space" }, 
+    :uniqueness => { :case_sensitive => false}
   
    
   has_many :attendance

@@ -4,7 +4,17 @@ class AttendancesController < ApplicationController
   # GET /attendances
   # GET /attendances.json
   def index
-    @attendances = Attendance.all
+    @from_date = Date.today
+    @to_date = Date.today
+    
+    if (params.has_key?(:from) && params.has_key?(:upto))
+      @from_date = Date.new(params[:from][:year].to_i, params[:from][:month].to_i,params[:from][:day].to_i) 
+      @to_date = Date.new(params[:upto][:year].to_i, params[:upto][:month].to_i, params[:upto][:day].to_i)
+      @attendances = Attendance.where("for_date >= ? and for_date <= ?", @from_date, @to_date)
+    else
+      @attendances = Attendance.all
+    end
+    
   end
 
   # GET /attendances/1
@@ -20,7 +30,12 @@ class AttendancesController < ApplicationController
   # GET /attendances/1/edit
   def edit
   end
-
+  
+  def add_today
+      # flash[:danger] = "Alerting you to the monkey on your car!"
+      message = Attendance.add_new_day current_user.id
+      redirect_to current_user, flash: {success: "#{message}"}
+  end
   # POST /attendances
   # POST /attendances.json
   def create

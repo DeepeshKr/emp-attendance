@@ -1,2 +1,19 @@
-<h1>Project#home</h1>
-<p>Find me in app/views/project/home.html.erb</p>
+
+<div class="card">
+  <div class="card-header">
+    <h1>Welcome to Attendance app</h1>
+  </div>
+  <div class="card-block">
+    <h4 class="card-title">Special treatment</h4>
+    <p class="card-text">With your support this app can help you track your attendance.</p>
+	
+	<% if user_signed_in? %>
+	 <%= link_to 'Enter your attendance', current_user, class:"btn btn-primary" %>
+	 
+   	<% end %>
+  			
+   <% if current_user.admin? %>
+     <p>You are logged in as admin, with some effort you can see two green button on top, where you can see the details of all users and attendance if you click on them</p>
+   <% end %>
+  </div>
+</div>

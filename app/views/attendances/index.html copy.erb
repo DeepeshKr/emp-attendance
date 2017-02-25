@@ -1,15 +1,6 @@
 <p id="notice"><%= notice %></p>
 
-<div class="row">
-	<div class="col-4">
-		<h1>Attendances</h1>
-		From Date: <%= @from_date %>
-	</div>
-	<div class="col-8">
-		<%= render 'date_search' %>
-	</div>
-</div>
-
+<h1>Attendances</h1>
 
 <table class="table table-hover table-bordered">
   <thead>
@@ -17,6 +8,11 @@
       <th>User</th>
       <th>For date</th>
       <th>In time</th>
+      <th>Out time</th>
+      <th>Forced leave</th>
+      <th>Leave granted</th>
+      <th>Hours worked</th>
+      <th>Break hours</th>
       <th colspan="4"></th>
     </tr>
   </thead>
@@ -27,6 +23,11 @@
         <td><%= attendance.user.full_name %></td>
         <td><%= attendance.for_date.strftime("%d-%b-%y") %></td>
         <td><%= attendance.in_time.strftime("%H:%M %p ") %></td>
+        <td><%= attendance.out_time.strftime("%H:%M %p ") %></td>
+        <td><%= attendance.forced_leave %></td>
+        <td><%= attendance.leave_granted %></td>
+        <td><%= attendance.hours_worked %></td>
+        <td><%= attendance.break_hours %></td>
 		 <td><%= attendance.on_time[1] %></td>
         <td><%= link_to 'Show', attendance %></td>
         <td><%= link_to 'Edit', edit_attendance_path(attendance) %></td>
