@@ -2,7 +2,7 @@ class UsersController < ApplicationController
   before_action :set_user, only: [:show, :edit, :update, :destroy]
   # before_action :authenticate_user!
   def index
-    @users = User.all
+    @users = User.all.page params[:page]
   end
   
   def edit
@@ -11,7 +11,7 @@ class UsersController < ApplicationController
   
   def show
     
-     @attendances = Attendance.where(:user_id => current_user.id)
+     @attendances = Attendance.where(:user_id => current_user.id).limit(30)
   end
   
   def update

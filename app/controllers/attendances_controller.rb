@@ -11,8 +11,9 @@ class AttendancesController < ApplicationController
       @from_date = Date.new(params[:from][:year].to_i, params[:from][:month].to_i,params[:from][:day].to_i) 
       @to_date = Date.new(params[:upto][:year].to_i, params[:upto][:month].to_i, params[:upto][:day].to_i)
       @attendances = Attendance.where("for_date >= ? and for_date <= ?", @from_date, @to_date)
+      .order(:in_time).page params[:page]
     else
-      @attendances = Attendance.all
+      @attendances = Attendance.all.order(:in_time).page params[:page]
     end
     
   end
