@@ -39,8 +39,8 @@ gem 'kaminari'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-gem 'dotenv-rails', groups: [:development, :test]
-
+# gem 'dotenv-rails' , groups: [:development, :test]
+gem "figaro"
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'
 end

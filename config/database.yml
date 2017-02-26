@@ -1,19 +1,20 @@
 default: &default
   adapter: postgresql
   encoding: unicode
-  host: <%= ENV["DB_IP"] %> 
-  username: <%= ENV["DB_USER"] %>
+  host: <%= ENV['DB_IP'] %>
+  username: <%= ENV['DB_USER'] %>
   password: <%= ENV["DB_PASS"] %>
   pool: 5
 
 development:
   <<: *default
-  database: emp_attend
-
-production:
-  <<: *default
-  database: emp_attend
+  database: employee_attendance
 
 test:
   <<: *default
-  database: emp_attend_test
+  database: employee_attendance_test
+
+production:
+  <<: *default
+  database: employee_attendance
+
