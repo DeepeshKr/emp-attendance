@@ -17,9 +17,14 @@ test:
 # production:
 #   <<: *default
 #   database: employee_attendance
+# for heroku only
 production:
   <<: *default
-  database: <%= ENV['HEROKU_DATABASE'] %>
-  username: <%= ENV['HEROKU_USER'] %>
+  database: geniusu_test_production
+  username: geniusu_test
   password: <%= ENV['HEROKU_DATABASE_PASSWORD'] %>
+
+  # database: <%= ENV['HEROKU_DATABASE'] %>
+  # username: <%= ENV['HEROKU_USER'] %>
+  # password: <%= ENV['HEROKU_DATABASE_PASSWORD'] %>
 
