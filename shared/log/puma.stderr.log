@@ -1,2 +1,191 @@
 === puma startup: 2015-09-27 07:25:11 -0500 ===
 === puma startup: 2015-09-27 07:51:52 -0500 ===
+=== puma startup: 2017-02-27 05:56:50 -0500 ===
+=== puma startup: 2017-02-27 06:03:02 -0500 ===
+=== puma startup: 2017-02-27 06:03:21 -0500 ===
+=== puma startup: 2017-02-27 06:03:23 -0500 ===
+=== puma startup: 2017-02-27 06:03:37 -0500 ===
+=== puma startup: 2017-02-27 06:03:41 -0500 ===
+=== puma startup: 2017-02-27 06:03:55 -0500 ===
+=== puma startup: 2017-02-27 06:03:58 -0500 ===
+=== puma startup: 2017-02-27 06:04:12 -0500 ===
+=== puma startup: 2017-02-27 06:04:14 -0500 ===
+/home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/arel-7.1.4/lib/arel/visitors.rb:12:in `require': Interrupt
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/arel-7.1.4/lib/arel/visitors.rb:12:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/arel-7.1.4/lib/arel.rb:14:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/arel-7.1.4/lib/arel.rb:14:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record.rb:27:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record.rb:27:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/railtie.rb:1:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/activerecord-5.0.1/lib/active_record/railtie.rb:1:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:14:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:14:in `block in <top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:12:in `each'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:12:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/config/application.rb:3:in `require'
+	from /home/deepesh/isdavinci_web/config/application.rb:3:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:88:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:88:in `block in server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `tap'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `require'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `require'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+=== puma startup: 2017-02-27 06:05:25 -0500 ===
+=== puma startup: 2017-02-27 06:05:28 -0500 ===
+=== puma startup: 2017-02-27 06:05:42 -0500 ===
+=== puma startup: 2017-02-27 06:05:43 -0500 ===
+=== puma startup: 2017-02-27 06:05:47 -0500 ===
+=== puma startup: 2017-02-27 06:05:59 -0500 ===
+=== puma startup: 2017-02-27 06:06:01 -0500 ===
+=== puma startup: 2017-02-27 06:06:05 -0500 ===
+=== puma startup: 2017-02-27 06:06:20 -0500 ===
+=== puma startup: 2017-02-27 06:06:22 -0500 ===
+/home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:362:in `delete': No such file or directory @ unlink_internal - /home/deepesh/isdavinci_web/tmp/pids/server.pid (Errno::ENOENT)
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:362:in `block in write_pid'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:126:in `fork'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:126:in `block in spawn_workers'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:122:in `times'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:122:in `spawn_workers'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:447:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/launcher.rb:171:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/rack/handler/puma.rb:58:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:296:in `start'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/server.rb:79:in `start'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:90:in `block in server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `tap'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `require'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `require'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+=== puma startup: 2017-02-27 06:06:28 -0500 ===
+/home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/configuration.rb:4:in `require': Interrupt
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/configuration.rb:4:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/base.rb:4:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/base.rb:4:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/environment.rb:1:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets/environment.rb:1:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets.rb:4:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-3.7.1/lib/sprockets.rb:4:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.2.0/lib/sprockets/railtie.rb:6:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/sprockets-rails-3.2.0/lib/sprockets/railtie.rb:6:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:14:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:14:in `block in <top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:12:in `each'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/all.rb:12:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/config/application.rb:3:in `require'
+	from /home/deepesh/isdavinci_web/config/application.rb:3:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:88:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:88:in `block in server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `tap'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `require'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `require'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+=== puma startup: 2017-02-27 06:07:28 -0500 ===
+=== puma startup: 2017-02-27 06:07:32 -0500 ===
+=== puma startup: 2017-02-27 06:07:36 -0500 ===
+=== puma startup: 2017-02-27 06:07:47 -0500 ===
+=== puma startup: 2017-02-27 06:07:49 -0500 ===
+=== puma startup: 2017-02-27 06:08:04 -0500 ===
+=== puma startup: 2017-02-27 06:08:06 -0500 ===
+=== puma startup: 2017-02-27 06:08:09 -0500 ===
+=== puma startup: 2017-02-27 06:08:21 -0500 ===
+=== puma startup: 2017-02-27 06:08:24 -0500 ===
+=== puma startup: 2017-02-27 06:08:27 -0500 ===
+=== puma startup: 2017-02-27 06:08:40 -0500 ===
+=== puma startup: 2017-02-27 06:08:42 -0500 ===
+=== puma startup: 2017-02-27 06:09:06 -0500 ===
+=== puma startup: 2017-02-27 06:09:09 -0500 ===
+=== puma startup: 2017-02-27 06:09:13 -0500 ===
+=== puma startup: 2017-02-27 06:09:26 -0500 ===
+=== puma startup: 2017-02-27 06:09:31 -0500 ===
+=== puma startup: 2017-02-27 06:09:50 -0500 ===
+=== puma startup: 2017-02-27 06:09:52 -0500 ===
+=== puma startup: 2017-02-27 06:09:55 -0500 ===
+=== puma startup: 2017-02-27 06:10:08 -0500 ===
+=== puma startup: 2017-02-27 06:10:10 -0500 ===
+=== puma startup: 2017-02-27 06:10:23 -0500 ===
+=== puma startup: 2017-02-27 06:10:25 -0500 ===
+/home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:362:in `delete': No such file or directory @ unlink_internal - /home/deepesh/isdavinci_web/tmp/pids/server.pid (Errno::ENOENT)
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:362:in `block in write_pid'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:126:in `fork'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:126:in `block in spawn_workers'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:122:in `times'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:122:in `spawn_workers'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/cluster.rb:447:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/puma/launcher.rb:171:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/puma-3.7.1/lib/rack/handler/puma.rb:58:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/rack-2.0.1/lib/rack/server.rb:296:in `start'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/server.rb:79:in `start'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:90:in `block in server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `tap'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:85:in `server'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands/commands_tasks.rb:49:in `run_command!'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/railties-5.0.1/lib/rails/commands.rb:18:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `require'
+	from /home/deepesh/isdavinci_web/bin/rails:9:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/rails.rb:28:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client/command.rb:7:in `call'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/client.rb:30:in `run'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/bin/spring:49:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `load'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/spring-2.0.1/lib/spring/binstub.rb:31:in `<top (required)>'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `require'
+	from /home/deepesh/isdavinci_web/bin/spring:15:in `<top (required)>'
+	from bin/rails:3:in `load'
+	from bin/rails:3:in `<main>'
+=== puma startup: 2017-02-27 06:10:37 -0500 ===
+=== puma startup: 2017-02-27 06:10:40 -0500 ===
+=== puma startup: 2017-02-27 06:10:48 -0500 ===
+=== puma startup: 2017-02-27 06:10:51 -0500 ===
+/home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler/lockfile_parser.rb:123:in `<class:LockfileParser>': Interrupt
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler/lockfile_parser.rb:15:in `<module:Bundler>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler/lockfile_parser.rb:14:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler/definition.rb:2:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler.rb:127:in `definition'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler.rb:93:in `setup'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/gems/2.2.0/gems/bundler-1.13.4/lib/bundler/setup.rb:20:in `<top (required)>'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+	from /home/deepesh/.rbenv/versions/2.2.3/lib/ruby/2.2.0/rubygems/core_ext/kernel_require.rb:54:in `require'
+=== puma startup: 2017-02-27 06:10:54 -0500 ===
+=== puma startup: 2017-02-27 06:11:13 -0500 ===

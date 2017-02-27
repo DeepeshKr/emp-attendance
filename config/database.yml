@@ -21,9 +21,12 @@ test:
 production:
   <<: *default
   database: employee_attendance
-  host: <%= ENV['DB_IP'] %>
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV['DB_PASS'] %>
+  host: 45.34.14.127 
+  #<%= ENV['DB_IP'] %>
+  username: "deepesh"
+  # <%= ENV['DB_USER'] %>
+  password: "Make@246" 
+  # <%= ENV['DB_PASS'] %>
 
   # database: <%= ENV['HEROKU_DATABASE'] %>
   # username: <%= ENV['HEROKU_USER'] %>

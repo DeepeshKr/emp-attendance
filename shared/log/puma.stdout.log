@@ -7,3 +7,646 @@
 === puma startup: 2015-09-27 07:51:52 -0500 ===
 [6808] * Starting control server on unix:///tmp/puma-status-1443358294956-6808
 [6808] - Worker 0 (pid: 6898) booted, phase: 0
+=== puma startup: 2017-02-27 05:56:50 -0500 ===
+[546] * Starting control server on unix:///tmp/puma-status-1488193010764-546
+[546] - Worker 1 (pid: 842) booted, phase: 0
+[546] - Worker 0 (pid: 839) booted, phase: 0
+[546] - Gracefully shutting down workers...
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:02 -0500 ===
+[546] * Starting control server on unix:///tmp/puma-status-1488193382040-546
+[546] - Worker 1 (pid: 1441) booted, phase: 0
+[546] - Worker 0 (pid: 1438) booted, phase: 0
+=== puma startup: 2017-02-27 06:03:21 -0500 ===
+[1479] * Starting control server on unix:///tmp/puma-status-1488193401761-1479
+[546] - Gracefully shutting down workers...
+[1479] - Worker 0 (pid: 1515) booted, phase: 0
+[1479] - Worker 1 (pid: 1519) booted, phase: 0
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:23 -0500 ===
+[546] * Starting control server on unix:///tmp/puma-status-1488193403416-546
+[1479] - Gracefully shutting down workers...
+[1479] * Restarting...
+[546] - Worker 0 (pid: 1549) booted, phase: 0
+[546] - Worker 1 (pid: 1552) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1479] Puma starting in cluster mode...
+[1479] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1479] * Min threads: 5, max threads: 5
+[1479] * Environment: production
+[1479] * Process workers: 2
+[1479] * Phased restart available
+[1479] * Inherited tcp://181.215.106.97:3001
+[1479] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:37 -0500 ===
+[1479] * Starting control server on unix:///tmp/puma-status-1488193417518-1479
+[1479] - Worker 0 (pid: 1599) booted, phase: 0
+[1479] - Worker 1 (pid: 1603) booted, phase: 0
+[546] - Gracefully shutting down workers...
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:41 -0500 ===
+[1479] - Gracefully shutting down workers...
+[546] * Starting control server on unix:///tmp/puma-status-1488193421454-546
+[1479] * Restarting...
+[546] - Worker 1 (pid: 1637) booted, phase: 0
+[546] - Worker 0 (pid: 1633) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1479] Puma starting in cluster mode...
+[1479] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1479] * Min threads: 5, max threads: 5
+[1479] * Environment: production
+[1479] * Process workers: 2
+[1479] * Phased restart available
+[1479] * Inherited tcp://181.215.106.97:3001
+[1479] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:55 -0500 ===
+[1479] * Starting control server on unix:///tmp/puma-status-1488193435765-1479
+[1479] - Worker 0 (pid: 1681) booted, phase: 0
+[1479] - Worker 1 (pid: 1685) booted, phase: 0
+[546] - Gracefully shutting down workers...
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:03:58 -0500 ===
+[546] * Starting control server on unix:///tmp/puma-status-1488193438709-546
+[1479] - Gracefully shutting down workers...
+[1479] * Restarting...
+[546] - Worker 1 (pid: 1718) booted, phase: 0
+[546] - Worker 0 (pid: 1715) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1479] Puma starting in cluster mode...
+[1479] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1479] * Min threads: 5, max threads: 5
+[1479] * Environment: production
+[1479] * Process workers: 2
+[1479] * Phased restart available
+[1479] * Inherited tcp://181.215.106.97:3001
+[1479] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:04:12 -0500 ===
+[1479] * Starting control server on unix:///tmp/puma-status-1488193452070-1479
+[1479] - Worker 0 (pid: 1763) booted, phase: 0
+[1479] - Worker 1 (pid: 1767) booted, phase: 0
+[546] - Gracefully shutting down workers...
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:04:14 -0500 ===
+[1479] - Gracefully shutting down workers...
+[546] * Starting control server on unix:///tmp/puma-status-1488193454140-546
+[1479] * Restarting...
+[546] - Worker 1 (pid: 1801) booted, phase: 0
+[546] - Worker 0 (pid: 1797) booted, phase: 0
+[546] - Worker 0 (pid: 1895) booted, phase: 0
+[546] - Worker 0 (pid: 1919) booted, phase: 0
+=== puma startup: 2017-02-27 06:05:25 -0500 ===
+[1923] * Starting control server on unix:///tmp/puma-status-1488193525643-1923
+[546] - Gracefully shutting down workers...
+[1923] - Worker 1 (pid: 1981) booted, phase: 0
+[1923] - Worker 0 (pid: 1977) booted, phase: 0
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:05:28 -0500 ===
+[546] * Starting control server on unix:///tmp/puma-status-1488193528620-546
+[1923] - Gracefully shutting down workers...
+[1923] * Restarting...
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1923] Puma starting in cluster mode...
+[1923] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1923] * Min threads: 5, max threads: 5
+[1923] * Environment: production
+[1923] * Process workers: 2
+[1923] * Phased restart available
+[1923] * Inherited tcp://181.215.106.97:3001
+[1923] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:05:42 -0500 ===
+[1923] * Starting control server on unix:///tmp/puma-status-1488193542537-1923
+[546] - Gracefully shutting down workers...
+[2022] Early termination of worker
+[2024] Early termination of worker
+[546] * Restarting...
+[546] Puma starting in cluster mode...
+[546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[546] * Min threads: 5, max threads: 5
+[546] * Environment: development
+[546] * Process workers: 2
+[546] * Phased restart available
+[546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[546] * Inherited tcp://0.0.0.0:3000
+[546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:05:43 -0500 ===
+[1923] - Worker 0 (pid: 2035) booted, phase: 0
+[1923] - Worker 1 (pid: 2038) booted, phase: 0
+[546] * Starting control server on unix:///tmp/puma-status-1488193543426-546
+[1923] - Gracefully shutting down workers...
+[1923] * Restarting...
+=== puma startup: 2017-02-27 06:05:46 -0500 ===
+[2078] * Starting control server on unix:///tmp/puma-status-1488193546947-2078
+[2078] - Worker 1 (pid: 2122) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1923] Puma starting in cluster mode...
+[1923] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1923] * Min threads: 5, max threads: 5
+[1923] * Environment: production
+[1923] * Process workers: 2
+[1923] * Phased restart available
+[1923] * Inherited tcp://181.215.106.97:3001
+[1923] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:05:59 -0500 ===
+[1923] * Starting control server on unix:///tmp/puma-status-1488193559328-1923
+[1923] - Worker 0 (pid: 2155) booted, phase: 0
+[1923] - Worker 1 (pid: 2158) booted, phase: 0
+[2078] - Gracefully shutting down workers...
+[2136] Early termination of worker
+[2078] * Restarting...
+[2078] Puma starting in cluster mode...
+[2078] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2078] * Min threads: 5, max threads: 5
+[2078] * Environment: development
+[2078] * Process workers: 2
+[2078] * Phased restart available
+[2078] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2078] * Inherited tcp://0.0.0.0:3000
+[2078] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:06:01 -0500 ===
+[2078] * Starting control server on unix:///tmp/puma-status-1488193561722-2078
+[1923] - Gracefully shutting down workers...
+[1923] * Restarting...
+=== puma startup: 2017-02-27 06:06:05 -0500 ===
+[2198] * Starting control server on unix:///tmp/puma-status-1488193565911-2198
+[2198] - Worker 1 (pid: 2241) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[1923] Puma starting in cluster mode...
+[1923] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[1923] * Min threads: 5, max threads: 5
+[1923] * Environment: production
+[1923] * Process workers: 2
+[1923] * Phased restart available
+[1923] * Inherited tcp://181.215.106.97:3001
+[1923] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:06:20 -0500 ===
+[1923] * Starting control server on unix:///tmp/puma-status-1488193580239-1923
+[1923] - Worker 0 (pid: 2277) booted, phase: 0
+[1923] - Worker 1 (pid: 2281) booted, phase: 0
+[2198] - Gracefully shutting down workers...
+[2265] Early termination of worker
+[2198] * Restarting...
+[2198] Puma starting in cluster mode...
+[2198] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2198] * Min threads: 5, max threads: 5
+[2198] * Environment: development
+[2198] * Process workers: 2
+[2198] * Phased restart available
+[2198] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2198] * Inherited tcp://0.0.0.0:3000
+[2198] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:06:22 -0500 ===
+[2198] * Starting control server on unix:///tmp/puma-status-1488193582618-2198
+[1923] - Gracefully shutting down workers...
+[1923] * Restarting...
+=== puma startup: 2017-02-27 06:06:28 -0500 ===
+[2330] * Starting control server on unix:///tmp/puma-status-1488193588107-2330
+[2330] - Worker 0 (pid: 2375) booted, phase: 0
+[2330] - Worker 1 (pid: 2379) booted, phase: 0
+=== puma startup: 2017-02-27 06:07:28 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193648932-2468
+[2468] - Worker 1 (pid: 2508) booted, phase: 0
+[2468] - Worker 0 (pid: 2504) booted, phase: 0
+[2330] - Gracefully shutting down workers...
+[2330] * Restarting...
+[2330] Puma starting in cluster mode...
+[2330] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2330] * Min threads: 5, max threads: 5
+[2330] * Environment: development
+[2330] * Process workers: 2
+[2330] * Phased restart available
+[2330] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2330] * Inherited tcp://0.0.0.0:3000
+[2330] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:07:32 -0500 ===
+[2330] * Starting control server on unix:///tmp/puma-status-1488193652014-2330
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:07:36 -0500 ===
+[2546] * Starting control server on unix:///tmp/puma-status-1488193656121-2546
+[2546] - Worker 0 (pid: 2587) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:07:47 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193667926-2468
+[2546] - Gracefully shutting down workers...
+[2602] Early termination of worker
+[2546] * Restarting...
+[2468] - Worker 0 (pid: 2622) booted, phase: 0
+[2468] - Worker 1 (pid: 2626) booted, phase: 0
+[2546] Puma starting in cluster mode...
+[2546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2546] * Min threads: 5, max threads: 5
+[2546] * Environment: development
+[2546] * Process workers: 2
+[2546] * Phased restart available
+[2546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2546] * Inherited tcp://0.0.0.0:3000
+[2546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:07:49 -0500 ===
+[2546] * Starting control server on unix:///tmp/puma-status-1488193669338-2546
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:04 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193684855-2468
+[2546] - Gracefully shutting down workers...
+[2670] Early termination of worker
+[2668] Early termination of worker
+[2546] * Restarting...
+[2468] - Worker 1 (pid: 2685) booted, phase: 0
+[2468] - Worker 0 (pid: 2682) booted, phase: 0
+[2546] Puma starting in cluster mode...
+[2546] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2546] * Min threads: 5, max threads: 5
+[2546] * Environment: development
+[2546] * Process workers: 2
+[2546] * Phased restart available
+[2546] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2546] * Inherited tcp://0.0.0.0:3000
+[2546] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:06 -0500 ===
+[2546] * Starting control server on unix:///tmp/puma-status-1488193686353-2546
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:08:09 -0500 ===
+[2724] * Starting control server on unix:///tmp/puma-status-1488193689334-2724
+[2724] - Worker 1 (pid: 2768) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:21 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193701531-2468
+[2468] - Worker 1 (pid: 2803) booted, phase: 0
+[2468] - Worker 0 (pid: 2799) booted, phase: 0
+[2724] - Gracefully shutting down workers...
+[2780] Early termination of worker
+[2724] * Restarting...
+[2724] Puma starting in cluster mode...
+[2724] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2724] * Min threads: 5, max threads: 5
+[2724] * Environment: development
+[2724] * Process workers: 2
+[2724] * Phased restart available
+[2724] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2724] * Inherited tcp://0.0.0.0:3000
+[2724] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:24 -0500 ===
+[2724] * Starting control server on unix:///tmp/puma-status-1488193704117-2724
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:08:27 -0500 ===
+[2841] * Starting control server on unix:///tmp/puma-status-1488193707907-2841
+[2841] - Worker 1 (pid: 2886) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:40 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193720311-2468
+[2468] - Worker 1 (pid: 2922) booted, phase: 0
+[2468] - Worker 0 (pid: 2918) booted, phase: 0
+[2841] - Gracefully shutting down workers...
+[2899] Early termination of worker
+[2841] * Restarting...
+[2841] Puma starting in cluster mode...
+[2841] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2841] * Min threads: 5, max threads: 5
+[2841] * Environment: development
+[2841] * Process workers: 2
+[2841] * Phased restart available
+[2841] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2841] * Inherited tcp://0.0.0.0:3000
+[2841] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:08:42 -0500 ===
+[2841] * Starting control server on unix:///tmp/puma-status-1488193722712-2841
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+[2841] - Worker 1 (pid: 2957) booted, phase: 0
+[2841] - Worker 0 (pid: 2980) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:06 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193746853-2468
+[2468] - Worker 1 (pid: 3045) booted, phase: 0
+[2468] - Worker 0 (pid: 3041) booted, phase: 0
+[2841] - Gracefully shutting down workers...
+[3027] Early termination of worker
+[2841] * Restarting...
+[2841] Puma starting in cluster mode...
+[2841] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2841] * Min threads: 5, max threads: 5
+[2841] * Environment: development
+[2841] * Process workers: 2
+[2841] * Phased restart available
+[2841] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[2841] * Inherited tcp://0.0.0.0:3000
+[2841] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:09 -0500 ===
+[2841] * Starting control server on unix:///tmp/puma-status-1488193749442-2841
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:09:13 -0500 ===
+[3086] * Starting control server on unix:///tmp/puma-status-1488193753309-3086
+[3086] - Worker 0 (pid: 3127) booted, phase: 0
+[3086] - Worker 1 (pid: 3131) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:26 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193766335-2468
+[2468] - Worker 1 (pid: 3180) booted, phase: 0
+[2468] - Worker 0 (pid: 3178) booted, phase: 0
+[3086] - Gracefully shutting down workers...
+[3086] * Restarting...
+[3086] Puma starting in cluster mode...
+[3086] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[3086] * Min threads: 5, max threads: 5
+[3086] * Environment: development
+[3086] * Process workers: 2
+[3086] * Phased restart available
+[3086] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[3086] * Inherited tcp://0.0.0.0:3000
+[3086] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:31 -0500 ===
+[3086] * Starting control server on unix:///tmp/puma-status-1488193771148-3086
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+[3086] - Worker 1 (pid: 3219) booted, phase: 0
+[3086] - Worker 0 (pid: 3229) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:50 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193790963-2468
+[3086] - Gracefully shutting down workers...
+[3086] * Restarting...
+[2468] - Worker 1 (pid: 3279) booted, phase: 0
+[2468] - Worker 0 (pid: 3275) booted, phase: 0
+[3086] Puma starting in cluster mode...
+[3086] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[3086] * Min threads: 5, max threads: 5
+[3086] * Environment: development
+[3086] * Process workers: 2
+[3086] * Phased restart available
+[3086] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[3086] * Inherited tcp://0.0.0.0:3000
+[3086] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:09:52 -0500 ===
+[3086] * Starting control server on unix:///tmp/puma-status-1488193792323-3086
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:09:55 -0500 ===
+[3319] * Starting control server on unix:///tmp/puma-status-1488193795625-3319
+[3319] - Worker 1 (pid: 3362) booted, phase: 0
+[3319] - Worker 0 (pid: 3359) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:08 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193808424-2468
+[2468] - Worker 0 (pid: 3406) booted, phase: 0
+[2468] - Worker 1 (pid: 3408) booted, phase: 0
+[3319] - Gracefully shutting down workers...
+[3319] * Restarting...
+[3319] Puma starting in cluster mode...
+[3319] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[3319] * Min threads: 5, max threads: 5
+[3319] * Environment: development
+[3319] * Process workers: 2
+[3319] * Phased restart available
+[3319] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[3319] * Inherited tcp://0.0.0.0:3000
+[3319] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:10 -0500 ===
+[3319] * Starting control server on unix:///tmp/puma-status-1488193810251-3319
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+[3319] - Worker 1 (pid: 3444) booted, phase: 0
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:23 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193823139-2468
+[3319] - Worker 0 (pid: 3449) booted, phase: 0
+[2468] - Worker 0 (pid: 3474) booted, phase: 0
+[2468] - Worker 1 (pid: 3478) booted, phase: 0
+[3319] - Gracefully shutting down workers...
+[3498] Early termination of worker
+[3319] * Restarting...
+[3319] Puma starting in cluster mode...
+[3319] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[3319] * Min threads: 5, max threads: 5
+[3319] * Environment: development
+[3319] * Process workers: 2
+[3319] * Phased restart available
+[3319] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[3319] * Inherited tcp://0.0.0.0:3000
+[3319] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:25 -0500 ===
+[3319] * Starting control server on unix:///tmp/puma-status-1488193825319-3319
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:37 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193837544-2468
+[2468] - Worker 0 (pid: 3554) booted, phase: 0
+[2468] - Worker 1 (pid: 3558) booted, phase: 0
+[3319] - Gracefully shutting down workers...
+[3543] Early termination of worker
+[3319] * Restarting...
+[3319] Puma starting in cluster mode...
+[3319] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[3319] * Min threads: 5, max threads: 5
+[3319] * Environment: development
+[3319] * Process workers: 2
+[3319] * Phased restart available
+[3319] * Inherited unix:///home/deepesh/isdavinci_web/shared/sockets/puma.sock
+[3319] * Inherited tcp://0.0.0.0:3000
+[3319] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:40 -0500 ===
+[3319] * Starting control server on unix:///tmp/puma-status-1488193840046-3319
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=> Booting Puma
+=> Rails 5.0.1 application starting in production on http://181.215.106.97:3001
+=> Run `rails server -h` for more startup options
+[2468] Puma starting in cluster mode...
+[2468] * Version 3.7.1 (ruby 2.2.3-p173), codename: Snowy Sagebrush
+[2468] * Min threads: 5, max threads: 5
+[2468] * Environment: production
+[2468] * Process workers: 2
+[2468] * Phased restart available
+[2468] * Inherited tcp://181.215.106.97:3001
+[2468] Use Ctrl-C to stop
+=== puma startup: 2017-02-27 06:10:48 -0500 ===
+[2468] * Starting control server on unix:///tmp/puma-status-1488193848412-2468
+[2468] - Worker 1 (pid: 3613) booted, phase: 0
+[2468] - Worker 0 (pid: 3610) booted, phase: 0
+[3597] ! Detected parent died, dying
+[3599] ! Detected parent died, dying
+=== puma startup: 2017-02-27 06:10:51 -0500 ===
+[3638] * Starting control server on unix:///tmp/puma-status-1488193851236-3638
+[2468] - Gracefully shutting down workers...
+[2468] * Restarting...
+=== puma startup: 2017-02-27 06:10:54 -0500 ===
+[3687] * Starting control server on unix:///tmp/puma-status-1488193854840-3687
+[3687] - Worker 1 (pid: 3729) booted, phase: 0
+[3687] - Worker 0 (pid: 3727) booted, phase: 0
+[3687] - Gracefully shutting down workers...
+[3687] === puma shutdown: 2017-02-27 06:11:10 -0500 ===
+[3687] - Goodbye!
+=== puma startup: 2017-02-27 06:11:13 -0500 ===
+[3781] * Starting control server on unix:///tmp/puma-status-1488193873519-3781
+[3781] - Worker 1 (pid: 3909) booted, phase: 0
+[3781] - Worker 0 (pid: 3905) booted, phase: 0
