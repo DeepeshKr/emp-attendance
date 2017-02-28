@@ -36,10 +36,11 @@ gem 'devise'
 gem 'simple_form'
 gem 'bootstrap', '~> 4.0.0.alpha6'
 gem 'kaminari'
+gem 'time_difference'
 # Use Capistrano for deployment
 # gem 'capistrano-rails', group: :development
 
-# gem 'dotenv-rails' , groups: [:development, :test]
+# gem 'dotenv-rails', groups: [:development, :test, :production]
 gem "figaro"
 source 'https://rails-assets.org' do
   gem 'rails-assets-tether', '>= 1.3.3'

@@ -1,5 +1,10 @@
 <p>Welcome <%= @email %>!</p>
 
 <p>You can confirm your account email through the link below:</p>
+<p>Only admin's can add or remove other admins, if you are seeing then you are NOT one of them, to become an admin you can visit this <a href="https://www.reed.co.uk/career-advice/how-to-become-an-administrator/">link</a>, and then come back and re apply it may be a simple process by then </p>
+
+<p>if you want to be the admin of this website you need to contact the guy who made this app, who has more powers than Donald on this one, so beware </p>
+
+<p>The web admin gets to see more data, press some buttons, (donot confuse this to be the same (s)exciting things which you saw after you become an adult), it may be bit boring</p>
 
 <p><%= link_to 'Confirm my account', confirmation_url(@resource, confirmation_token: @token) %></p>

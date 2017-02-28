@@ -9,7 +9,9 @@
 		    <tr>
 		      <th>For date</th>
 		      <th>In time</th>
-			  <th><th>
+			  <th>Out time</th>
+			  <th>Hours</th>
+			  <th>You are: </th>
 		    </tr>
 		  </thead>
 
@@ -18,6 +20,8 @@
 		      <tr class="<%= attendance.on_time[0] %>">
 	           <td><%= attendance.for_date.strftime("%d-%b-%y") %></td>
 	           <td><%= attendance.in_time.strftime("%H:%M %p ") %></td>
+			   <td><%= attendance.out_time.strftime("%H:%M %p ") if attendance.out_time %></td>
+			   <td><%= attendance.hours_worked || 'working' if attendance.hours_worked %></td>
 			   <td><%= attendance.on_time[1] %></td>
 		   	  </tr>
 		    <% end %>

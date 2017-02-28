@@ -11,7 +11,11 @@ class UsersController < ApplicationController
   
   def show
     
-     @attendances = Attendance.where(:user_id => current_user.id).limit(30)
+     @attendances = Attendance.where(:user_id => @user.id).limit(30)
+     # check if today's attendance is punched in
+     @today_attedance = Attendance.where(user_id: @user.id, for_date: DateTime.now.to_date)
+     # show punched out date
+     
   end
   
   def update
@@ -27,6 +31,8 @@ class UsersController < ApplicationController
   end
   
   def destroy
+    
+    UserMailer.removed_email(@user).deliver_later
     @user.destroy
     respond_to do |format|
       format.html { redirect_to users_url, notice: 'User was successfully destroyed.' }

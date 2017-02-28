@@ -1,0 +1,1 @@
+Figaro.require_keys("db_host_ip", "db_username", "db_password")

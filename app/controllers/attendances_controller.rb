@@ -7,6 +7,16 @@ class AttendancesController < ApplicationController
     @from_date = Date.today
     @to_date = Date.today
     
+    ### late comers for today
+    @late_attendances = Attendance.where(forced_leave: true, for_date: DateTime.now.to_date).order(:in_time).page params[:page]
+    
+    ### late comers for today
+    @today_attendances = Attendance.where(for_date: DateTime.now.to_date).order(:in_time).page params[:page]
+    
+    ### late comers for today
+    @habitual_late_comers = User.joins(:attendance).group("users.id").having("count(attendances.forced_leave) > ?",5)
+     # params[:page]
+  
     if (params.has_key?(:from) && params.has_key?(:upto))
       @from_date = Date.new(params[:from][:year].to_i, params[:from][:month].to_i,params[:from][:day].to_i) 
       @to_date = Date.new(params[:upto][:year].to_i, params[:upto][:month].to_i, params[:upto][:day].to_i)
@@ -33,8 +43,14 @@ class AttendancesController < ApplicationController
   end
   
   def add_today
-      # flash[:danger] = "Alerting you to the monkey on your car!"
+      
       message = Attendance.add_new_day current_user.id
+      redirect_to current_user, flash: {success: "#{message}"}
+  end
+  
+  def end_today
+      
+      message = Attendance.close_day current_user.id
       redirect_to current_user, flash: {success: "#{message}"}
   end
   # POST /attendances

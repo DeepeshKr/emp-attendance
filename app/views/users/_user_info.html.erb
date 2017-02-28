@@ -5,9 +5,26 @@
   <div class="card-block">
 	<div class="row">
 	<div class="col-4">
-		<%= link_to image_tag("clock.jpg", :border=>0), 
-		add_today_attendances_path(user_id: current_user.id), :method => :post %>
-		<span>Punch in</span>
+		
+		<% if @today_attedance.blank? %>
+			<%= link_to image_tag("clock.jpg", :border=>0), 
+			add_today_attendances_path(user_id: current_user.id), :method => :post %>
+			<span>Punch in</span>
+		<% else %>
+			<% if @today_attedance.first.out_time.blank? %>
+				<h2>You have already punched in for <%= @today_attedance.first.for_date.strftime("%d-%b-%y") %> now punch out</h2>
+				<%= link_to image_tag("black_clock.jpg", :border=>0), 
+				end_today_attendances_path(user_id: current_user.id), :method => :post %>
+				<span>Punch Out</span>
+			<% else %>
+				<h2>You have punched in 
+					at <%= @today_attedance.first.in_time.strftime("%H:%M %p ") %>
+					 and punched out 
+					at <%= @today_attedance.first.out_time.strftime("%H:%M %p ") %>, 
+					what else now?</h2>
+			<% end %>
+		<% end %>
+		
 	</div>  
 	<div class="col-8">
 		<%= render 'attendances/list_of_attendance' %>

@@ -3,39 +3,71 @@
 <div class="row">
 	<div class="col-4">
 		<h1>Attendances</h1>
-		From Date: <%= @from_date %>
 	</div>
 	<div class="col-8">
 		<%= render 'date_search' %>
 	</div>
 </div>
 
+<div class="row">
+	<div class="col-4">
+		<% if @late_attendances.present? %> 
+			<%= render partial: "day_list", locals: { attendances: @late_attendances, heading: "Late comers" } %>
+		<% else %>
+			<h4>No details found for Late comers for the day</h4>
+		<% end %>
+			
+	</div><!-- end of Late comers-->
+	<div class="col-4">
+		<% if @late_attendances.present? %> 
+			<%= render partial: "day_list", locals: { attendances: @today_attendances, heading: "Attendance" } %>
+		<% else %>
+			<h4>No details found for today</h4>
+		<% end %>
+	</div><!-- end of Late comers-->
+	<div class="col-4">
+		<div class="card">
+		  	<div class="card-header">
+		    	<h5>Habitual Late comers</h5>
+		  	</div>
+			<div class="card-block">
+				<% if @habitual_late_comers.present? %> 
+				<table class="table table-hover table-bordered">
+				  <thead>
+				    <tr>
+				      <th>User</th>
+				    </tr>
+				  </thead>
+				  <tbody>
+				    <% @habitual_late_comers.each do |user| %>
+				       <tr>
+				        <td><%= user.full_name %></td>
+				      </tr>
+				    <% end %>
+				  </tbody>
+				</table>
+				<% else %>
+					<h4>Wow! No Habitual Late comers</h4>
+				<% end %>
+			</div> 
+		</div> <!-- end of block-->
+	</div><!-- end of Late comers-->
+</div>
 
-<table class="table table-hover table-bordered">
-  <thead>
-    <tr>
-      <th>User</th>
-      <th>For date</th>
-      <th>In time</th>
-      <th colspan="4"></th>
-    </tr>
-  </thead>
 
-  <tbody>
-    <% @attendances.each do |attendance| %>
-       <tr class="<%= attendance.on_time[0] %>">
-        <td><%= attendance.user.full_name %></td>
-        <td><%= attendance.for_date.strftime("%d-%b-%y") %></td>
-        <td><%= attendance.in_time.strftime("%H:%M %p ") %></td>
-		 <td><%= attendance.on_time[1] %></td>
-        <td><%= link_to 'Show', attendance %></td>
-        <td><%= link_to 'Edit', edit_attendance_path(attendance) %></td>
-        <td><%= link_to 'Destroy', attendance, method: :delete, data: { confirm: 'Are you sure?' } %></td>
-      </tr>
-    <% end %>
-  </tbody>
-</table>
+<div class="card">
+  	
+		<% if @attendances.present? %> 
+			<%= paginate @attendances %>
+			<%= render partial: "lists_of_attendance", locals: { attendances: @attendances, heading: "Attendence List" } %>
+			<%= paginate @attendances %>
+		<% else %>
+			<h4>No details found for Attendence List</h4>
+		<% end %>
 
-<br>
+</div>
+
+
+
 
 <%= link_to 'New Attendance', new_attendance_path %>

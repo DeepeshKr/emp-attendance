@@ -5,10 +5,13 @@ default: &default
 
 development:
   <<: *default
-  host: <%= ENV['DB_IP'] %>
-  username: <%= ENV['DB_USER'] %>
-  password: <%= ENV["DB_PASS"] %>
   database: employee_attendance
+  host: 45.34.14.127
+  # <%= ENV['db_host_ip'] %>
+  username: 'deepesh'
+  # <%= ENV['db_username'] %>
+  password: 'Make@246'
+  # <%= ENV['db_password'] %>
 
 test:
   <<: *default
@@ -21,12 +24,12 @@ test:
 production:
   <<: *default
   database: employee_attendance
-  host: 45.34.14.127 
-  #<%= ENV['DB_IP'] %>
-  username: "deepesh"
-  # <%= ENV['DB_USER'] %>
-  password: "Make@246" 
-  # <%= ENV['DB_PASS'] %>
+  host: 45.34.14.127
+  # <%= ENV['db_host_ip'] %>
+  username: 'deepesh'
+  # <%= ENV['db_username'] %>
+  password: 'Make@246'
+  # <%= ENV['db_password'] %>
 
   # database: <%= ENV['HEROKU_DATABASE'] %>
   # username: <%= ENV['HEROKU_USER'] %>

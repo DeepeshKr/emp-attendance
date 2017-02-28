@@ -8,8 +8,8 @@ class User < ApplicationRecord
   # this allows login by username or email id
   attr_accessor :login
   
-  validates :first_name, presence: true #, message: 'Require First Name'
-  validates :last_name, presence: true #, message: 'Require Last Name' 
+  validates :first_name, length: {minimum: 1, maximum: 15}, presence: true #, message: 'Require First Name'
+  validates :last_name, length: {minimum: 1, maximum: 15}, presence: true #, message: 'Require Last Name' 
   validates :user_name, presence: true, format: { with: /\A[a-zA-Z0-9]+\z/, 
     message: "only allows letters / numbers and no blank space" }, 
     :uniqueness => { :case_sensitive => false}

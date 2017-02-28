@@ -1,0 +1,41 @@
+<div class="card">
+  	<div class="card-header">
+    	<h1><%= heading %></h1>
+  	</div>
+  	<div class="card-block">
+		<table class="table table-hover table-bordered">
+		  <thead>
+		    <tr>
+		      <th>User</th>
+		      <th>For date</th>
+		      <th>In time</th>
+			  <th>Out time</th>
+			  <th>Hours<th>
+		      <th></th>
+			  <% if current_user.admin? %>
+			  <th colspan="3"></th>
+			  <% end %>
+		    </tr>
+		  </thead>
+
+		  <tbody>
+		    <% attendances.each do |attendance| %>
+		       <tr class="<%= attendance.on_time[0] %>">
+		        <td><%= link_to attendance.user.full_name, attendance.user %></td>
+		        <td><%= attendance.for_date.strftime("%d-%b-%y") %></td>
+		        <td><%= attendance.in_time.strftime("%H:%M %p ") %></td>
+			    <td><%= attendance.out_time.strftime("%H:%M %p ") if attendance.out_time %></td>
+			    <td><%= attendance.hours_worked || 'working' if attendance.hours_worked %></td>
+				<td><%= attendance.on_time[1] %></td>
+				<% if current_user.admin? %>
+		        <td><%= link_to 'Show', attendance %></td>
+		        <td><%= link_to 'Edit', edit_attendance_path(attendance) %></td>
+		        <td><%= link_to 'Destroy', attendance, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+				<% end %>
+		      </tr>
+		    <% end %>
+		  </tbody>
+		</table>
+	</div> 
+</div> <!-- end of block-->
+

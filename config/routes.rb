@@ -1,7 +1,7 @@
 Rails.application.routes.draw do
   
   resources :attendances do
-     collection { post :add_today }
+     collection { post :add_today, :end_today }
   end
   # resources :attendances
   

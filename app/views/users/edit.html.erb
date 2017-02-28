@@ -18,12 +18,17 @@
 	
   </div>
   <label class="custom-control custom-checkbox mb-2 mr-sm-2 mb-sm-0">
-    
+    <% if current_user.admin? %>
 	<%= f.input :admin, required: true, label:false, autofocus: true %>
     <span class="custom-control-description">This is Admin User</span>
+	<% else %>
+		<p>Only admin's can add or remove other admins, if you are seeing then you are NOT one of them </p>
+	<% end %>
   </label>
   
   <div class="form-actions">
-    <%= f.button :submit, class:"btn btn-primary" %>
+	<% if current_user.admin? %>
+    	<%= f.button :submit, class:"btn btn-primary" %>
+	<% end %>
   </div>
 <% end %>
